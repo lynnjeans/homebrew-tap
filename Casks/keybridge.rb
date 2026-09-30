@@ -4,7 +4,7 @@ cask "keybridge" do
 
   url "https://github.com/lynnjeans/keybridge/releases/download/v#{version}/KeyBridge-#{version}.dmg"
   name "KeyBridge"
-  desc "Windows keyboard shortcuts and mouse habits on macOS"
+  desc "Windows keyboard shortcuts and mouse habits"
   homepage "https://lynnjeans.github.io/keybridge/"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "keybridge" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "KeyBridge.app"
 
