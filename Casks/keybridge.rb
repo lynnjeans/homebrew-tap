@@ -1,6 +1,6 @@
 cask "keybridge" do
-  version "1.0.0"
-  sha256 "f3ea994c0071ed8bd8e4e917ec2ec92f9817feeea778c45a5847e9164fa764d6"
+  version "1.0.1"
+  sha256 "fd7b6943c74c7a2d92eb5e0163f4062155059ca151ea57e7b4243a09bfe892c1"
 
   url "https://github.com/lynnjeans/keybridge/releases/download/v#{version}/KeyBridge-#{version}.dmg"
   name "KeyBridge"
