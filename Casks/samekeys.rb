@@ -1,6 +1,6 @@
 cask "samekeys" do
-  version "1.3"
-  sha256 "f9345be27d0ed31a2c5c3ff54f71ee516d33780b64fa05a0d69c74ba2daa8613"
+  version "1.4"
+  sha256 "afd7eae09c0e1bed6b71293b55682637a47b9d990b1148f8d1814839e495b1fb"
 
   url "https://github.com/lynnjeans/samekeys/releases/download/v#{version}/SameKeys-#{version}.dmg"
   name "SameKeys"
